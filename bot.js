@@ -2,9 +2,9 @@ const { Telegraf } = require('telegraf')
 const fetch = require('node-fetch')
 const { v4: uuidv4} = require('uuid')
 
-const tg_api_key = 'YOUR_TELEGRAM_API_KEY' // Телеграм апи ключ
+const tg_api_key = 7354229866:AAGpIeJLrYvuxSvJ01TMmEKg9KjUkarj6iw // Телеграм апи ключ
 const gigachat_auth_data = 'YOUR_GIGACHAT_AUTH_DATA' // Авторизационные данные GigaChat
-const gigachat_scope = 'YOUR_GIGACHAT_SCOPE' // GIGACHAT_API_CORP / GIGACHAT_API_PERS
+const gigachat_scope = 'YOUR_GIGACHAT_7354229866:AAGpIeJLrYvuxSvJ01TMmEKg9KjUkarj6iw_PERS // GIGACHAT_API_CORP / GIGACHAT_API_PERS
 const profanity_check = true // false - [для gigachat_scope = GIGACHAT_API_CORP] отключает цензуру нейросети
 
 const bot = new Telegraf(tg_api_key, {handlerTimeout: Infinity})
